@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #3e4b59;
+    /* #c4b8a1 */
+}
+
+.container {
+    transition: 0.3s;
+    margin: 0;
+    width: 120px;
+    height: 220px;
+    border-radius: 5px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.37);
+    background-image: url('https://cdn.ozone.bg/media/catalog/product/cache/1/image/a4e40ebdc3e371adff845072e1c73f37/3/5/79557cb93066f4470b8cee6e9110f757/pazel-clementoni-ot-500-chasti---atinskata-shkola--rafaelo-santsio-32.jpg');
+
+
+
+}
+
+.container:hover {
+    width: 190px;
+    height: 350px;
+}
